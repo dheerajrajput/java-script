@@ -1,0 +1,90 @@
+# what is the advantages of java script?
+
+1 - applications with which you can interact directly without doing a page reload for every action
+
+
+#how do we store the decima
+
+#how can we override the same memory in java.
+
+
+#Special numbers
+
+infinity, -Infinity and NAN(operations that don’t yield a meaningful result)
+
+#Strings
+
+You can use single quotes, double quotes, or backticks to mark strings, as long as the quotes at the start and the end of the string match.
+
+`Down on the sea`
+"Lie on the ocean"
+'Float on the ocean'
+
+
+A quote that is preceded by a backslash will not end the string but be part of it
+
+When you write something inside ${} in a template literal '`', its result will be
+computed
+
+typeof operator, which produces a string value naming the type of
+
+
+There is only one value in JavaScript that is not equal to itself, and that is
+NaN
+
+#what are the advantages of functions?
+It gives us a way to structure larger programs, to reduce repetition, to associate names with
+subprograms, and to isolate these subprograms from each other
+
+
+#scope of a function
+let and const are in fact local to the block that they
+are declared in, so if you create one of those inside of a loop, the code before and
+after the loop cannot “see” it. In pre-2015 JavaScript, only functions created
+new scopes, so old-style bindings, created with the var keyword, are visible
+throughout the whole function that they appear in—or throughout the global
+scope
+
+The exception is when multiple bindings have the same
+name—in that case, code can see only the innermost one
+
+#understand the scope of variables in java script
+
+1 - global scope in a file
+2 - global scope different files.
+3 - can we access fields of function(since functions are first class object.)
+4 - can we access fields defined inside a function which is defined inside another function (nested function)
+
+There are three ways to define a function
+#- what are the advantages and disdvantest
+1 - using arrow
+2 - using name in signatue
+3 - using bindings 
+
+
+
+
+language doesn’t complain. It ignores the extra arguments and computes
+the square of the first one.
+JavaScript is extremely broad-minded about the number of arguments you
+pass to a function. If you pass too many, the extra ones are ignored. If you
+pass too few, the missing parameters get assigned the value undefined.
+The downside of this is that it is possible—likely, even—that you’ll accidentally
+pass the wrong number of arguments to functions. And no one will tell
+you about it.
+The upside is that this behavior can be used to allow a function to be called
+with different numbers of arguments. For example, this minus function tries to
+imitate the - operator by acting on either one or two arguments:
+
+
+If you write an = operator after a parameter, followed by an expression, the
+value of that expression will replace the argument when it is not given.
+For example, this version of power makes its second argument optional. If
+you don’t provide it or pass the value undefined, it will default to two, and the
+function will behave like square.
+
+
+/cygdrive/c/Users/admin/Documents/GitHub/java_script/java_script_function
+
+
+
