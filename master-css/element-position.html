@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Planets</title>
+<style>
+#content #main h2 {
+    color: gray;
+}
+
+div > #main > h2 {
+    color: green;
+}
+
+#content > [id="main"] .news-story:nth-of-type(1) h2.first {
+    color: hotpink;
+}
+:root [id="content"]:first-child > #main  h2:nth-last-child(3) {
+    color: gold;
+}
+
+.comment {
+
+ position: absolute;
+ background-color :red;
+ width: 7em;
+  margin-left: -9.5em;              
+  margin-top: -2.5em;
+}
+
+#main{
+margin-left: 400px;
+
+}
+
+</style>
+
+</head>
+<body>
+<div id="content">
+  <main id="main">
+	<p>This is a fake article[...]</p>
+	<aside class="comment"> I've never done this. Is that really true?</aside>
+	<p>Absolutely positioned elements will retain the position they would have as static elements when offsets from the positioning context are left undefined, so the first step is to just leave the comment </p>
+  
+  
+    <h2>Strange Times</h2>
+    <p>Here you can read bizarre news stories from around the globe.</p>
+    <div class="news-story">
+      <h2 class="first">Bog Snorkeling Champion Announced Today</h2>
+      <p>The 2008 Bog Snorkeling Championship was won by Conor Murphy
+    with an impressive time of 1 minute 38 seconds.</p>
+    </div>
+  </main>
+</div>
+</html>

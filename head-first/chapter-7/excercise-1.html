@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Planets</title>
+<script>
+
+var test1 = "abcdef";
+var test2 = 123;
+var test3 = true;
+var test4 = {};
+var test5 = [];
+var test6;
+var test7 = {"abcdef": 123};
+var test8 = ["abcdef", 123];
+function test9(){return "abcdef"};
+console.log(typeof test1);
+console.log(typeof test2);
+console.log(typeof test3);
+console.log(typeof test4);
+console.log(typeof test5);
+console.log(typeof test6);
+console.log(typeof test7);
+console.log(typeof test8);
+console.log(typeof test9);
+console.log(typeof null);
+console.log(typeof undefined);
+
+function init() {
+var planet = document.getElementById("greenplanet");
+planet.innerHTML = "Red Alert: hit by phaser fire!";
+}
+window.onload = init;
+</script>
+</head>
+<body>
+<h1>Green Planet</h1>
+<p id="greenplanet">All is well</p>
+<h1>Red Planet</h1>
+<p id="redplanet">Nothing to report</p>
+<h1>Blue Planet</h1>
+<p id="blueplanet">All systems A-OK</p>
+</body>
+</html>

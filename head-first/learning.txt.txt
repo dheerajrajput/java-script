@@ -1,0 +1,127 @@
+#chapter
+
+1 - you can declare a variable without var keyword. But if you declare a varaible without var keyword inside a function then that varaible will become global.
+
+HTML is case insensitive.
+
+java script is pass by value. 
+
+
+
+
+what is the execution order of java script if we have more than 1 js file.
+
+js engine execute the code from top to bottom. it executes the code in two passes, in the first pass it reads all your function and in the second pass it begins executing your code.
+
+can we pass any type of parameter to a function in java script?
+
+
+
+Objects package up the complexity of your data so that you
+can focus on the high level design of your code, not the nitty gritty
+details. Say you want to write a traffic simulator with tens of cars;
+you’ll want to focus on cars and streetlights and road objects and
+not hundreds of little variables. Objects also make your life easier
+because they encapsulate, or hide, the complexity of the state
+and behavior of your objects so you don’t have to worry about
+them. How all that works will become much clearer as you gain
+experience with objects.
+
+we can insert and delete the properties in java object.
+
+But there’s another way: bracket notation, which looks like this:
+
+
+### Document Object
+
+Document Object contains a method getElementById then fetches the element present at that id and innerHtml property return the content.
+
+Browser creates Document object when we load the html page. Java script can interact with the Document object to create or remove elements.
+
+If you put your java script in the head element and try to access element in body you can get element not found error.Because, the element that you are trying to access it not created by browser.
+To resolve this issue you can execute your code calling the method after window load
+
+
+## Functions
+
+function in java script will always return a value. if you do not specify the return statement then it will return undefined.
+
+
+
+##Values
+
+Why do we have undefined and null in java script?
+undefined is used when a proprity is not defined or array object does not contain an element.
+null is used to denote an object whose value cannot be computed.
+
+
+##Callback
+
+Give a function to the object that known about the event. When the event occurs, that object will call you back, or notify you, by calling that function.
+
+#type of
+type of null is an object.
+type of undefined is undefined
+type of NAN is a number.
+
+
+and know that
+it is most common to use null in places where an object should be
+but one can’t be created or found, and it is most common to find
+undefined when you have a variable that hasn’t been initialized, or
+an object with a missing property, or an array with a missing value.
+
+If you compare
+NaN to NaN, they aren’t equal
+if you want to compare nan then you have to use isNaN function
+
+
+
+## equality
+
+
+
+CASE#1: Comparing a number and a string.
+String is coverted to a number
+
+CASE#2: Comparing a boolean with anyother type
+boolean is conveted to number
+
+CASE#3 
+
+
+
+##Function
+
+This is function declration
+
+function quack(num) {
+for (var i = 0; i < num; i++) {
+console.log("Quack!");
+}
+
+
+This is function expression
+
+var fly = function(num) {
+for (var i = 0; i < num; i++) {
+console.log("Flying!");
+}
+};
+fly(3);
+
+
+}
+
+
+
+
+Function declarations are evaluated
+before the rest of the code is evaluated.
+
+Function expressions get evaluated
+later, with the rest of the code
+
+That means you cannot use function expresion before it is defined.
+
+
